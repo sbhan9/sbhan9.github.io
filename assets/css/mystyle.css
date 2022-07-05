@@ -16,7 +16,7 @@ body {
 
 body::after {
   content: "";
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url("../img/bg-body.jpg") !important;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url("../img/bg-body.jpg") !important;
   top: 0;
   left: 0;
   bottom: 0;
