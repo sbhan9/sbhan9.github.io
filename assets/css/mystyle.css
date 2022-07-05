@@ -16,7 +16,7 @@ body {
 
 body::after {
   content: "";
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("../img/bg-body.jpg") !important;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url("../img/bg-body.jpg") !important;
   top: 0;
   left: 0;
   bottom: 0;
@@ -46,7 +46,7 @@ body::after {
 @media only screen and (min-width: 576px) {
   body::after {
     content: "";
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("../img/bg-body-for-desktop.jpg") !important;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url("../img/bg-body-for-desktop.jpg") !important;
     top: 0;
     left: 0;
     bottom: 0;
