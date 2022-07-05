@@ -59,3 +59,27 @@ body::after {
     position: absolute;
   }
 }
+
+/* salju efek */
+#snowflakeContainer {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: none;
+}
+
+.snowflake {
+  position: fixed;
+  background-color: #ffff;
+  user-select: none;
+  z-index: 1000;
+  pointer-events: none;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+
+/* typing efek */
+.input-cursor {
+  margin-left: -3px;
+}

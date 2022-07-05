@@ -9,21 +9,33 @@
     <link rel="stylesheet" href="assets/css/mystyle.css" />
   </head>
   <body class="d-flex align-items-center justify-content-center">
+    <div id="snowflakeContainer">
+      <span class="snowflake"></span>
+    </div>
     <section class="main">
       <div class="row justify-content-center">
-        <div class="col-lg-8">
-          <div class="text-center text-white">
-            <h1 class="fw-bold">Subhan Fadilah</h1>
-            <h5>Hallo, nama saya Subhan Fadilah lahir di Banjar, 15 Oktober 2003, saya Freelance Web Developer tepatnya pada bahasa pemrograman PHP dan Framework Laravel.</h5>
-            <a href="https://github.com/sbhan9" class="text-white fs-4 me-1"><i class="bi bi-github"></i></a>
-            <a href="https://kosongempat.my.id/" class="text-white fs-4 mx-1"><i class="bi bi-link"></i></i></a>
-            <a href="https://instagram.com/sbhan04/" class="text-white fs-4 ms-1"><i class="bi bi-instagram"></i></a>
+        <div class="col-lg-8 text-center text-white">
+          <div class="typing-container">
+            <h1 id="feature-text" class="d-inline"></h1>
+            <h1 class="input-cursor text-white d-inline">.</h1>
           </div>
+          <h5>Hallo, nama saya Subhan Fadilah lahir di Banjar, 15 Oktober 2003, saya Freelance Web Developer tepatnya pada bahasa pemrograman PHP dan Framework Laravel.</h5>
+          <a href="https://github.com/sbhan9" class="text-white fs-4 me-1"><i class="bi bi-github"></i></a>
+          <a href="https://kosongempat.my.id/" class="text-white fs-4 mx-1"><i class="bi bi-link"></i></a>
+          <a href="https://instagram.com/sbhan04/" class="text-white fs-4 ms-1"><i class="bi bi-instagram"></i></a>
         </div>
+      </div>
+      <div class="d-flex justify-content-center mt-5">
+        <audio controls autoplay>
+          <source src="assets/audio/audio.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
       </div>
       <p class="text-center text-white footer fixed-bottom">Subhan Fadilah <i class="bi bi-suit-heart-fill hati"></i> 2022</p>
     </section>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/typing_efekct.js"></script>
   </body>
 </html>
