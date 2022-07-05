@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body,
+html {
+  height: 100%;
+  overflow-x: hidden !important;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+}
+
+body::after {
+  content: "";
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("../img/bg-body.jpg") !important;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+}
+
+.main h1 {
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+.hati {
+  color: red;
+}
+
+.footer {
+  letter-spacing: 1px;
+}
+
+/* Min-width */
+@media only screen and (min-width: 576px) {
+  body::after {
+    content: "";
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("../img/bg-body-for-desktop.jpg") !important;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    position: absolute;
+  }
+}
