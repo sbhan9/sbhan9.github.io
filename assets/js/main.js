@@ -105,9 +105,9 @@ function generateSnowflakes() {
     snowflakeContainer.appendChild(snowflakeClone);
 
     // set our snowflake's initial position and related properties
-    var initialXPos = getPosition(50, browserWidth);
-    var initialYPos = getPosition(50, browserHeight);
-    var speed = 5 + Math.random() * 40;
+    var initialXPos = getPosition(40, browserWidth);
+    var initialYPos = getPosition(90, browserHeight);
+    var speed = 25 + Math.random() * 50;
 
     // create our Snowflake object
     var snowflakeObject = new Snowflake(snowflakeClone, speed, initialXPos, initialYPos);
