@@ -162,3 +162,10 @@ function getPosition(offset, size) {
 function setResetFlag(e) {
   resetPosition = true;
 }
+
+// audio play
+document.addEventListener("click", musicPlay);
+function musicPlay() {
+  document.getElementById("audioplay").play();
+  document.removeEventListener("click", musicPlay);
+}
